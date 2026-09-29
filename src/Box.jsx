@@ -6,9 +6,6 @@ import confetti from "canvas-confetti"
 
 
 export default function Box() {
-
-    console.log(localStorage.getItem("best"))
-
     const [arr, setArr] = useState(Data)
     const [track, setTrack] = useState({ roll: 0, win: false, start: false, timer: 0 })
     const [first, setFirst] = useState(null)
